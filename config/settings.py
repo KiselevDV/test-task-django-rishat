@@ -19,7 +19,7 @@ from urllib.parse import urlparse
 BASE_DIR = Path(__file__).resolve().parent.parent
 dotenv_path = BASE_DIR / '.env'
 load_dotenv(dotenv_path=dotenv_path)
-tmpPostgres = urlparse(os.getenv("DATABASE_URL"))
+# tmpPostgres = urlparse(os.getenv("DATABASE_URL"))
 
 
 # Quick-start development settings - unsuitable for production
@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'whitenoise.runserver_nostatic',
 
     # 3rd libraries
     'rest_framework',
@@ -62,6 +63,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -99,22 +101,22 @@ DATABASES = {
     #     'ENGINE': 'django.db.backends.sqlite3',
     #     'NAME': BASE_DIR / 'db.sqlite3',
     # },
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.postgresql',
-    #     'NAME': os.getenv('POSTGRES_DB'),
-    #     'USER': os.getenv('POSTGRES_USER'),
-    #     'PASSWORD': os.getenv('POSTGRES_PASSWORD'),
-    #     'HOST': os.getenv('POSTGRES_HOST', 'localhost'),
-    #     'PORT': os.getenv('POSTGRES_PORT', '5432'),
-    # },
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': tmpPostgres.path.replace('/', ''),
-        'USER': tmpPostgres.username,
-        'PASSWORD': tmpPostgres.password,
-        'HOST': tmpPostgres.hostname,
-        'PORT': 5432,
-    }
+        'NAME': os.getenv('POSTGRES_DB'),
+        'USER': os.getenv('POSTGRES_USER'),
+        'PASSWORD': os.getenv('POSTGRES_PASSWORD'),
+        'HOST': os.getenv('POSTGRES_HOST', 'localhost'),
+        'PORT': os.getenv('POSTGRES_PORT', '5432'),
+    },
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.postgresql',
+    #     'NAME': tmpPostgres.path.replace('/', ''),
+    #     'USER': tmpPostgres.username,
+    #     'PASSWORD': tmpPostgres.password,
+    #     'HOST': tmpPostgres.hostname,
+    #     'PORT': 5432,
+    # }
 }
 
 
@@ -155,6 +157,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = 'static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field

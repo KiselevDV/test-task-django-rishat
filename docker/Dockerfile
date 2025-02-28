@@ -12,8 +12,7 @@ RUN poetry config virtualenvs.create false \
 COPY ../ /app/
 
 ENV PYTHONUNBUFFERED=1 \
-    DJANGO_SETTINGS_MODULE=config.settings \
-    PORT=8000
+    DJANGO_SETTINGS_MODULE=config.settings
 
 EXPOSE 8000
 
