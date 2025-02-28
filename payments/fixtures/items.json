@@ -1,0 +1,502 @@
+[
+{
+  "model": "payments.item",
+  "pk": 1,
+  "fields": {
+    "name": "Ноутбук Apple Macbook Pro 14.2\" M4 2024 MW2U3",
+    "description": "14.2\" 3024 x 1964, IPS, 120 Гц, Apple M4 (10 ядер), 16 ГБ LPDDR5X, SSD 512 ГБ, видеокарта встроенная, Mac OS, цвет крышки темно-серый, аккумулятор 72.4 Вт·ч",
+    "price": "125800.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 2,
+  "fields": {
+    "name": "Игровой ноутбук Lenovo Legion 5 R7000 83LQ0005CD",
+    "description": "15.6\" 1920 x 1080, IPS, 144 Гц, AMD Ryzen 7 8745H, 16 ГБ DDR5, SSD 512 ГБ, видеокарта NVIDIA GeForce RTX 4060 8 ГБ (TGP 125 Вт), цвет крышки темно-серый, аккумулятор 60 Вт·ч",
+    "price": "79920.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 3,
+  "fields": {
+    "name": "Игровой ноутбук HP Victus 15-fb2063dx 9Z7L4UA",
+    "description": "15.6\" 1920 x 1080, IPS, 144 Гц, AMD Ryzen 5 7535HS, 8 ГБ DDR5, SSD 512 ГБ, видеокарта AMD Radeon RX 6550M 4 ГБ, Windows 11 Home, цвет крышки серый, аккумулятор 52.5 Вт·ч",
+    "price": "47980.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 4,
+  "fields": {
+    "name": "Ноутбук Xiaomi RedmiBook Pro 16 2024 JYU4592CN",
+    "description": "16.0\" 3072 x 1920, IPS, 165 Гц, Intel Core Ultra 5 125H, 32 ГБ LPDDR5X, SSD 1024 ГБ, видеокарта встроенная, цвет крышки серый, аккумулятор 99 Вт·ч",
+    "price": "67400.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 5,
+  "fields": {
+    "name": "Ноутбук HONOR MagicBook X16 Plus 2024 BRI-7211 5301AJLV",
+    "description": "16.0\" 2560 x 1600, IPS, 120 Гц, AMD Ryzen 7 8845HS, 32 ГБ LPDDR5X, SSD 1024 ГБ, видеокарта встроенная, цвет крышки серебристый, аккумулятор 75 Вт·ч",
+    "price": "65480.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 6,
+  "fields": {
+    "name": "Игровой ноутбук Gigabyte G6X 9MG-42KZ853SD",
+    "description": "16.0\" 1920 x 1200, IPS, 165 Гц, Intel Core i7 13650HX, 16 ГБ DDR5, SSD 512 ГБ, видеокарта NVIDIA GeForce RTX 4050 6 ГБ (TGP 105 Вт), без ОС, цвет крышки темно-серый, аккумулятор 73 Вт·ч",
+    "price": "67020.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 7,
+  "fields": {
+    "name": "Ноутбук Apple Macbook Air 13\" M3 2024 MRXN3",
+    "description": "13.6\" 2560 x 1664, IPS, 60 Гц, Apple M3, 8 ГБ, SSD 256 ГБ, видеокарта встроенная, Mac OS, цвет крышки серый, аккумулятор 52.6 Вт·ч",
+    "price": "76000.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 8,
+  "fields": {
+    "name": "Игровой ноутбук Lenovo LOQ 15ARP9 83JC0058RK",
+    "description": "15.6\" 1920 x 1080, IPS, 144 Гц, AMD Ryzen 5 7235HS, 16 ГБ DDR5, SSD 512 ГБ, видеокарта NVIDIA GeForce RTX 3050 6 ГБ (TGP 95 Вт), без ОС, цвет крышки темно-серый, аккумулятор 60 Вт·ч",
+    "price": "57760.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 9,
+  "fields": {
+    "name": "Ноутбук Apple Macbook Air 15\" M3 2024 MC9G4",
+    "description": "15.3\" 2880 x 1864, IPS, 60 Гц, Apple M3, 16 ГБ, SSD 256 ГБ, видеокарта встроенная, Mac OS, цвет крышки темно-синий, аккумулятор 66.5 Вт·ч",
+    "price": "94540.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 10,
+  "fields": {
+    "name": "Ноутбук Apple Macbook Pro 14.2\" M4 Pro 2024 MX2E3",
+    "description": "14.2\" 3024 x 1964, IPS, 120 Гц, Apple M4 Pro (12 ядер), 24 ГБ LPDDR5X, SSD 512 ГБ, видеокарта встроенная, Mac OS, цвет крышки серебристый, аккумулятор 72.4 Вт·ч",
+    "price": "144000.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 11,
+  "fields": {
+    "name": "Ноутбук ASUS Adolbook 14 Air OLED 90NB1465-M006Y0",
+    "description": "14.0\" 2880 x 1800, OLED, 120 Гц, AMD Ryzen 9 8945H, 32 ГБ LPDDR5X, SSD 1024 ГБ, видеокарта встроенная, без ОС, цвет крышки мятный, аккумулятор 75 Вт·ч",
+    "price": "74980.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 12,
+  "fields": {
+    "name": "Ноутбук Huawei MateBook D 16 2024 MCLF-X 53013YDK",
+    "description": "16.0\" 1920 x 1200, IPS, 60 Гц, Intel Core i5 12450H, 16 ГБ LPDDR4X, SSD 512 ГБ, видеокарта встроенная, без ОС, цвет крышки серый, аккумулятор 56 Вт·ч",
+    "price": "39960.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 13,
+  "fields": {
+    "name": "Игровой ноутбук Gigabyte G6X 9MG-42KZ854SD",
+    "description": "16.0\" 1920 x 1200, IPS, 165 Гц, Intel Core i7 13650HX, 16 ГБ DDR5, SSD 1024 ГБ, видеокарта NVIDIA GeForce RTX 4050 6 ГБ (TGP 105 Вт), без ОС, цвет крышки темно-серый, аккумулятор 73 Вт·ч",
+    "price": "69990.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 14,
+  "fields": {
+    "name": "Ноутбук Apple Macbook Air 15\" M3 2024 MXD43",
+    "description": "15.3\" 2880 x 1864, IPS, 60 Гц, Apple M3, 16 ГБ, SSD 512 ГБ, видеокарта встроенная, Mac OS, цвет крышки темно-синий, аккумулятор 66.5 Вт·ч",
+    "price": "109900.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 15,
+  "fields": {
+    "name": "Ноутбук Apple Macbook Pro 14.2\" M4 Pro 2024 MX2H3",
+    "description": "14.2\" 3024 x 1964, IPS, 120 Гц, Apple M4 Pro (12 ядер), 24 ГБ LPDDR5X, SSD 512 ГБ, видеокарта встроенная, Mac OS, цвет крышки темно-серый, аккумулятор 72.4 Вт·ч",
+    "price": "144000.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 16,
+  "fields": {
+    "name": "Ноутбук Xiaomi RedmiBook Pro 16 2024 JYU4593CN",
+    "description": "16.0\" 3072 x 1920, IPS, 165 Гц, Intel Core Ultra 7 155H, 32 ГБ LPDDR5X, SSD 1024 ГБ, видеокарта встроенная, цвет крышки серый, аккумулятор 99 Вт·ч",
+    "price": "78000.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 17,
+  "fields": {
+    "name": "Игровой ноутбук MSI Titan 18 HX A14VIG-211RU",
+    "description": "18\" 3840 x 2400, IPS с miniLED подсветкой, 120 Гц, Intel Core i9 14900HX, 64 ГБ DDR5, SSD 3072 ГБ, видеокарта NVIDIA GeForce RTX 4090 16 ГБ (TGP 175 Вт), Windows 11 Home, цвет крышки серый, аккумулятор 99.9 Вт·ч",
+    "price": "467200.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 18,
+  "fields": {
+    "name": "Ноутбук Apple Macbook Air 13\" M3 2024 MXCT3",
+    "description": "13.6\" 2560 x 1664, IPS, 60 Гц, Apple M3, 16 ГБ, SSD 512 ГБ, видеокарта встроенная, Mac OS, цвет крышки серебристый, аккумулятор 52.6 Вт·ч",
+    "price": "97000.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 19,
+  "fields": {
+    "name": "Ноутбук Lenovo IdeaPad Slim 5 16AHP9 83DD001XRK",
+    "description": "16.0\" 2048 x 1280, OLED, 120 Гц, AMD Ryzen 5 8645HS, 16 ГБ LPDDR5X, SSD 512 ГБ, видеокарта встроенная, без ОС, цвет крышки серебристый, аккумулятор 76 Вт·ч",
+    "price": "54450.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 20,
+  "fields": {
+    "name": "Игровой ноутбук Lenovo LOQ 15ARP9 83JC009CUS",
+    "description": "15.6\" 1920 x 1080, IPS, 144 Гц, AMD Ryzen 7 7435HS, 16 ГБ DDR5, SSD 512 ГБ, видеокарта NVIDIA GeForce RTX 4070 8ГБ (TGP 115 Вт), Windows 11 Home, цвет крышки темно-серый, аккумулятор 60 Вт·ч",
+    "price": "84990.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 21,
+  "fields": {
+    "name": "Телефон Samsung Galaxy S25 Ultra SM-S938B 12GB/256GB (черный титан)",
+    "description": "Android, экран 6.9\" AMOLED (1440x3120) 120 Гц, Qualcomm Snapdragon 8 Elite, ОЗУ 12 ГБ, память 256 ГБ, камера 200 Мп, аккумулятор 5000 мАч, 2 SIM (nano-SIM/eSIM), моноблок, влагозащита IP68",
+    "price": "93800.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 22,
+  "fields": {
+    "name": "Телефон POCO X7 Pro 12GB/512GB международная версия (черный)",
+    "description": "Android, экран 6.67\" AMOLED (1220x2712) 120 Гц, Mediatek Dimensity 8400 Ultra, ОЗУ 12 ГБ, память 512 ГБ, камера 50 Мп, аккумулятор 6000 мАч, 2 SIM (nano-SIM), моноблок, влагозащита IP68",
+    "price": "34160.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 23,
+  "fields": {
+    "name": "Телефон Samsung Galaxy S25 SM-S931B 12GB/128GB (голубой)",
+    "description": "Android, экран 6.2\" AMOLED (1080x2340) 120 Гц, Qualcomm Snapdragon 8 Elite, ОЗУ 12 ГБ, память 128 ГБ, камера 50 Мп, аккумулятор 4000 мАч, 2 SIM (nano-SIM/eSIM), моноблок, влагозащита IP68",
+    "price": "59000.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 24,
+  "fields": {
+    "name": "Телефон Xiaomi Redmi Note 14 8GB/256GB международная версия (черный)",
+    "description": "Android, экран 6.67\" AMOLED (1080x2400) 120 Гц, Mediatek Helio G99-Ultra, ОЗУ 8 ГБ, память 256 ГБ, поддержка карт памяти, камера 108 Мп, аккумулятор 5500 мАч, 2 SIM (nano-SIM), моноблок, влагозащита IP54",
+    "price": "16560.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 25,
+  "fields": {
+    "name": "Телефон POCO X7 8GB/256GB международная версия (серебристый)",
+    "description": "Android, экран 6.67\" AMOLED (1220x2712) 120 Гц, Mediatek Dimensity 7300 Ultra, ОЗУ 8 ГБ, память 256 ГБ, камера 50 Мп, аккумулятор 5110 мАч, 2 SIM (nano-SIM/eSIM), моноблок, влагозащита IP68",
+    "price": "21890.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 26,
+  "fields": {
+    "name": "Телефон HONOR X8c ABR-LX1 8GB/256GB международная версия (белый)",
+    "description": "Android, экран 6.7\" AMOLED (1080x2412) 120 Гц, Qualcomm Snapdragon 685, ОЗУ 8 ГБ, память 256 ГБ, камера 108 Мп, аккумулятор 5000 мАч, 2 SIM (nano-SIM), моноблок, влагозащита IP64",
+    "price": "15890.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 27,
+  "fields": {
+    "name": "Телефон Samsung Galaxy S25 SM-S931B 12GB/256GB (голубой)",
+    "description": "Android, экран 6.2\" AMOLED (1080x2340) 120 Гц, Qualcomm Snapdragon 8 Elite, ОЗУ 12 ГБ, память 256 ГБ, камера 50 Мп, аккумулятор 4000 мАч, 2 SIM (nano-SIM/eSIM), моноблок, влагозащита IP68",
+    "price": "59990.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 28,
+  "fields": {
+    "name": "Телефон OnePlus 13 16GB/512GB международная версия (черный)",
+    "description": "Android, экран 6.82\" AMOLED (1440x3168) 120 Гц, Qualcomm Snapdragon 8 Elite, ОЗУ 16 ГБ, память 512 ГБ, камера 50 Мп, аккумулятор 6000 мАч, 2 SIM (nano-SIM/eSIM), моноблок, влагозащита IP68/IP69",
+    "price": "72800.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 29,
+  "fields": {
+    "name": "Телефон POCO X7 Pro 12GB/512GB международная версия (желтый)",
+    "description": "Android, экран 6.67\" AMOLED (1220x2712) 120 Гц, Mediatek Dimensity 8400 Ultra, ОЗУ 12 ГБ, память 512 ГБ, камера 50 Мп, аккумулятор 6000 мАч, 2 SIM (nano-SIM), моноблок, влагозащита IP68",
+    "price": "33450.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 30,
+  "fields": {
+    "name": "Телефон OnePlus 13 16GB/512GB международная версия (синий)",
+    "description": "Android, экран 6.82\" AMOLED (1440x3168) 120 Гц, Qualcomm Snapdragon 8 Elite, ОЗУ 16 ГБ, память 512 ГБ, камера 50 Мп, аккумулятор 6000 мАч, 2 SIM (nano-SIM/eSIM), моноблок, влагозащита IP68/IP69",
+    "price": "72900.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 31,
+  "fields": {
+    "name": "Телефон Xiaomi Redmi Note 14 Pro 5G 8GB/256GB международная версия (черный)",
+    "description": "Android, экран 6.67\" AMOLED (1220x2712) 120 Гц, Mediatek Dimensity 7300 Ultra, ОЗУ 8 ГБ, память 256 ГБ, камера 200 Мп, аккумулятор 5110 мАч, 2 SIM (nano-SIM/eSIM), моноблок, влагозащита IP68",
+    "price": "22420.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 32,
+  "fields": {
+    "name": "Телефон Samsung Galaxy S25+ SM-S936B 12GB/256GB (серый)",
+    "description": "Android, экран 6.7\" AMOLED (1440x3120) 120 Гц, Qualcomm Snapdragon 8 Elite, ОЗУ 12 ГБ, память 256 ГБ, камера 50 Мп, аккумулятор 4900 мАч, 2 SIM (nano-SIM/eSIM), моноблок, влагозащита IP68",
+    "price": "71800.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 33,
+  "fields": {
+    "name": "Телефон Xiaomi Redmi Note 14 6GB/128GB международная версия (черный)",
+    "description": "Android, экран 6.67\" AMOLED (1080x2400) 120 Гц, Mediatek Helio G99-Ultra, ОЗУ 6 ГБ, память 128 ГБ, поддержка карт памяти, камера 108 Мп, аккумулятор 5500 мАч, 2 SIM (nano-SIM), моноблок, влагозащита IP54",
+    "price": "13500.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 34,
+  "fields": {
+    "name": "Телефон HONOR X8c ABR-LX1 8GB/256GB международная версия (черный)",
+    "description": "Android, экран 6.7\" AMOLED (1080x2412) 120 Гц, Qualcomm Snapdragon 685, ОЗУ 8 ГБ, память 256 ГБ, камера 108 Мп, аккумулятор 5000 мАч, 2 SIM (nano-SIM), моноблок, влагозащита IP64",
+    "price": "15990.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 35,
+  "fields": {
+    "name": "Телефон Huawei nova 13 BLK-LX9 12GB/256GB (черный)",
+    "description": "HarmonyOS, экран 6.7\" OLED (1084x2412) 120 Гц, HiSilicon Kirin 8000, ОЗУ 12 ГБ, память 256 ГБ, камера 50 Мп, аккумулятор 5000 мАч, 2 SIM (nano-SIM), моноблок, влагозащита IP65",
+    "price": "25990.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 36,
+  "fields": {
+    "name": "Телефон Huawei nova 13 Pro MIS-LX9 12GB/512GB (черный)",
+    "description": "HarmonyOS, экран 6.76\" OLED (1224x2776) 120 Гц, HiSilicon Kirin 8000, ОЗУ 12 ГБ, память 512 ГБ, камера 50 Мп, аккумулятор 5000 мАч, 2 SIM (nano-SIM), моноблок, влагозащита IP65",
+    "price": "31000.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 37,
+  "fields": {
+    "name": "Телефон Huawei Mate X6 ICL-LX9 12GB/512GB (красный)",
+    "description": "HarmonyOS, экран 7.93\" AMOLED (2240x2440) 120 Гц, HiSilicon Kirin 9020, ОЗУ 12 ГБ, память 512 ГБ, камера 50 Мп, аккумулятор 5110 мАч, 2 SIM (nano-SIM), со складным экраном (fold), влагозащита IPX8",
+    "price": "130000.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 38,
+  "fields": {
+    "name": "Телефон Apple iPhone 16 128GB (ультрамарин)",
+    "description": "Apple iOS, экран 6.1\" OLED (1179x2556) 60 Гц, Apple A18, ОЗУ 8 ГБ, память 128 ГБ, камера 48 Мп, аккумулятор 3561 мАч, 1 SIM (nano-SIM/eSIM), моноблок, влагозащита IP68",
+    "price": "54900.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 39,
+  "fields": {
+    "name": "Телефон Apple iPhone 15 Pro Max 256GB (природный титан)",
+    "description": "Apple iOS, экран 6.7\" OLED (1290x2796) 120 Гц, Apple A17 Pro, ОЗУ 8 ГБ, память 256 ГБ, камера 48 Мп, аккумулятор 4422 мАч, 1 SIM (nano-SIM/eSIM), моноблок, влагозащита IP68",
+    "price": "72400.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 40,
+  "fields": {
+    "name": "Телефон Apple iPhone 16 Pro Max 256GB (природный титан)",
+    "description": "Apple iOS, экран 6.9\" OLED (1320x2868) 120 Гц, Apple A18 Pro, ОЗУ 8 ГБ, память 256 ГБ, камера 48 Мп, аккумулятор 4685 мАч, 1 SIM (eSIM/nano-SIM), моноблок, влагозащита IP68",
+    "price": "89000.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 41,
+  "fields": {
+    "name": "Телевизор Haier 43 Smart TV S2 Pro",
+    "description": "43\" 3840x2160 (4K UHD), частота матрицы 60 Гц, Smart TV (Android TV), HDR10, Wi-Fi, смарт пульт",
+    "price": "19990.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 42,
+  "fields": {
+    "name": "Телевизор Яндекс ТВ Станция QLED с Алисой 65 YNDX-00096",
+    "description": "65\" 3840x2160 (4K UHD), матрица VA, частота матрицы 60 Гц, Smart TV (Яндекс.ТВ), HDR10, Wi-Fi, смарт пульт",
+    "price": "53500.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 43,
+  "fields": {
+    "name": "OLED телевизор LG OLED C4 OLED65C4RLA",
+    "description": "65\" 3840x2160 (4K UHD), матрица OLED (WOLED), частота матрицы 144 Гц, Smart TV (LG webOS), HDR10, Dolby Vision, Dolby Vision IQ, HLG, DTS:X, Dolby Atmos, AirPlay, Wi-Fi, смарт пульт",
+    "price": "130000.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 44,
+  "fields": {
+    "name": "Телевизор Haier 55 Smart TV S2 Pro",
+    "description": "55\" 3840x2160 (4K UHD), частота матрицы 60 Гц, Smart TV (Android TV), HDR10, Wi-Fi, смарт пульт",
+    "price": "39990.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 45,
+  "fields": {
+    "name": "OLED телевизор LG OLED C4 OLED55C4RLA",
+    "description": "55\" 3840x2160 (4K UHD), матрица OLED (WOLED), частота матрицы 144 Гц, Smart TV (LG webOS), HDR10, Dolby Vision, Dolby Vision IQ, HLG, DTS:X, Dolby Atmos, AirPlay, Wi-Fi, смарт пульт",
+    "price": "97500.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 46,
+  "fields": {
+    "name": "Телевизор Hisense 65E7NQ PRO",
+    "description": "65\" 3840x2160 (4K UHD), матрица IPS, частота матрицы 144 Гц, Smart TV (Vidaa), HDR10, HDR10+, Dolby Vision, Dolby Vision IQ, HLG, DTS:X, Dolby Atmos, AirPlay, Wi-Fi, смарт пульт",
+    "price": "55750.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 47,
+  "fields": {
+    "name": "Телевизор Samsung Crystal UHD DU7100 UE55DU7100UXRU",
+    "description": "55\" 3840x2160 (4K UHD), матрица VA, частота матрицы 60 Гц, Smart TV (Samsung Tizen), HDR10, HDR10+, HLG, AirPlay, Wi-Fi, смарт пульт",
+    "price": "35500.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 48,
+  "fields": {
+    "name": "Телевизор Яндекс ТВ Станция Бейсик с Алисой 55 YNDX-00076",
+    "description": "55\" 3840x2160 (4K UHD), матрица VA, частота матрицы 60 Гц, Smart TV (Яндекс.ТВ), HDR10, Wi-Fi, смарт пульт",
+    "price": "31190.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 49,
+  "fields": {
+    "name": "Телевизор Xiaomi TV A 65\" 2025 (международная версия)",
+    "description": "65\" 3840x2160 (4K UHD), частота матрицы 60 Гц, Smart TV (Android TV), HDR10, HLG, DTS:HD, DTS:X, Wi-Fi, смарт пульт",
+    "price": "40990.00",
+    "currency": "RUB"
+  }
+},
+{
+  "model": "payments.item",
+  "pk": 50,
+  "fields": {
+    "name": "Телевизор LG NanoCell NANO80 65NANO80T6A",
+    "description": "65\" 3840x2160 (4K UHD), частота матрицы 60 Гц, Smart TV (LG webOS), HDR10, HLG, AirPlay, Wi-Fi, смарт пульт",
+    "price": "51590.00",
+    "currency": "RUB"
+  }
+}
+]

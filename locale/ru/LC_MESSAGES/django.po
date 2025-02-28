@@ -1,0 +1,20 @@
+msgid "Price"
+msgstr "Цена"
+
+msgid "Currency"
+msgstr "Валюта"
+
+msgid "Name"
+msgstr "Название"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "Order"
+msgstr "Заказ"
+
+msgid "Discount"
+msgstr "Скидка"
+
+msgid "Tax"
+msgstr "Налог"

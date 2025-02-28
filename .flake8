@@ -1,0 +1,7 @@
+[flake8]
+
+exclude =
+    migrations
+    docker-compose.yml
+
+max-line-length = 120

@@ -1,0 +1,34 @@
+[
+{
+  "model": "payments.tax",
+  "pk": 1,
+  "fields": {
+    "name": "Таможенная пошлина",
+    "percentage": "15.00"
+  }
+},
+{
+  "model": "payments.tax",
+  "pk": 2,
+  "fields": {
+    "name": "НДС (налог на добавленную стоимость)",
+    "percentage": "20.00"
+  }
+},
+{
+  "model": "payments.tax",
+  "pk": 3,
+  "fields": {
+    "name": "Акциз",
+    "percentage": "33.00"
+  }
+},
+{
+  "model": "payments.tax",
+  "pk": 4,
+  "fields": {
+    "name": "Экологический сбор",
+    "percentage": "5.00"
+  }
+}
+]

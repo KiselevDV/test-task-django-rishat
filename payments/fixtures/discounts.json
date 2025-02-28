@@ -1,0 +1,42 @@
+[
+{
+  "model": "payments.discount",
+  "pk": 1,
+  "fields": {
+    "name": "Черная пятница",
+    "amount": "60.00"
+  }
+},
+{
+  "model": "payments.discount",
+  "pk": 2,
+  "fields": {
+    "name": "Киберпонедельник",
+    "amount": "50.00"
+  }
+},
+{
+  "model": "payments.discount",
+  "pk": 3,
+  "fields": {
+    "name": "Новогодняя",
+    "amount": "40.00"
+  }
+},
+{
+  "model": "payments.discount",
+  "pk": 4,
+  "fields": {
+    "name": "Промо",
+    "amount": "10.00"
+  }
+},
+{
+  "model": "payments.discount",
+  "pk": 5,
+  "fields": {
+    "name": "К школе",
+    "amount": "20.00"
+  }
+}
+]

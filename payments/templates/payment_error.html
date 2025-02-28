@@ -1,0 +1,21 @@
+{% load django_bootstrap5 %}
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ошибка оплаты</title>
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+</head>
+<body class="bg-light">
+    <div class="container text-center mt-5">
+        <div class="alert alert-danger p-4">
+            <h1>Ошибка при оплате</h1>
+            <p>Произошла ошибка при обработке платежа. Попробуйте снова.</p>
+            <a href="/" class="btn btn-secondary">Вернуться на главную</a>
+        </div>
+    </div>
+</body>
+</html>
