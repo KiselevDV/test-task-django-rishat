@@ -13,7 +13,7 @@ import os
 
 from dotenv import load_dotenv
 from pathlib import Path
-from urllib.parse import urlparse
+# from urllib.parse import urlparse
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -31,7 +31,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'my_secret_key')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', 'False').lower() in ('true', '1')
 
-ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '127.0.0.1,localhost').split(',')
+ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '127.0.0.1,localhost,render.com').split(',')
 
 # Для возможного расширения в SPA
 # django-cors-headers

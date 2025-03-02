@@ -3,5 +3,6 @@
 exclude =
     migrations
     docker-compose.yml
+    init_db.py
 
 max-line-length = 120

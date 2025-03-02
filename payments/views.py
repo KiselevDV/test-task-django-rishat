@@ -42,7 +42,7 @@ def item_page(request, item_id):
 
     # Выбрать ключ в зависимости от валюты
     stripe_keys = settings.STRIPE_KEYS.get(item.currency, settings.STRIPE_KEYS['usd'])
-    return render(request, 'items.html',{'item': item, 'stripe_public_key': stripe_keys['public']})
+    return render(request, 'items.html', {'item': item, 'stripe_public_key': stripe_keys['public']})
 
 
 def create_payment_intent(request, order_id):
@@ -72,6 +72,7 @@ def create_payment_intent(request, order_id):
         request, 'orders.html',
         {'order': order, 'stripe_public_key': stripe_keys['public']}
     )
+
 
 def payment_success(request):
     return render(request, 'payment_success.html')

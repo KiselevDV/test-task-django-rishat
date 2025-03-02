@@ -1,6 +1,7 @@
 from django.urls import path, include
 
-from payments.views import buy_item, item_page, create_payment_intent, payment_success, payment_error
+from payments.views import create_payment_intent, payment_success, payment_error
+# buy_item, item_page
 
 app_name = 'payments'
 

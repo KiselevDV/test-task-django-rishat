@@ -10,15 +10,18 @@ class ItemAdmin(admin.ModelAdmin):
     search_fields = ('name', 'description')
     list_filter = ('currency',)
 
+
 @admin.register(Discount)
 class DiscountAdmin(admin.ModelAdmin):
     list_display = ('name', 'amount')
     search_fields = ('name',)
 
+
 @admin.register(Tax)
 class TaxAdmin(admin.ModelAdmin):
     list_display = ('name', 'percentage')
     search_fields = ('name',)
+
 
 @admin.register(Order)
 class OrderAdmin(admin.ModelAdmin):

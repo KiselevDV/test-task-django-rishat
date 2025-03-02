@@ -11,7 +11,7 @@ $ cd test-task-django-rishat/docker
 ### 2 Запуск контейнеров
 ```sh
 # Запуск с пересборкой контейнеров
-$ docker-compose up --build
+$ docker-compose build --no-cache
 
 # Запуск в фоновом режиме
 $ docker-compose up -d
