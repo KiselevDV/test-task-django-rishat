@@ -1,0 +1,45 @@
+version: '3.9'
+
+services:
+  web:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - "18000:8000"
+    container_name: web_test_rishat
+    env_file:
+      - ../.env
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ..:/app
+    command: gunicorn config.wsgi:application --bind 0.0.0.0:8000
+    networks:
+      - test_network
+
+
+  postgres:
+    image: postgres:16-alpine
+    restart: always
+    container_name: postgres_test_rishat
+    env_file:
+      - ../.env
+    ports:
+      - "15432:5432"
+    volumes:
+      - ../../db/postgres/pg_data_rishat:/var/lib/postgresql/data
+    networks:
+      - test_network
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "$POSTGRES_USER"]
+      interval: 10s
+      retries: 5
+
+volumes:
+  pg_data_rishat:
+
+networks:
+  test_network:
+    driver: bridge

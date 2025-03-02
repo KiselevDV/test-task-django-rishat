@@ -31,13 +31,14 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'my_secret_key')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', 'False').lower() in ('true', '1')
 
-ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '127.0.0.1,localhost,render.com').split(',')
+ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '127.0.0.1,localhost,test-task-django-rishat.onrender.com').split(',')
 
 # Для возможного расширения в SPA
 # django-cors-headers
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',  # React / Vue / Angular
     'http://127.0.0.1:8000',
+    'https://test-task-django-rishat.onrender.com',
     'https://test-task-django-rishat.herokuapp.com'
 ]
 
