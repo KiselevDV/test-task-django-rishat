@@ -14,22 +14,22 @@ def initialize_database():
     print("Применение миграций...")
     call_command("migrate")
 
-    print("Загрузка фикстур...")
-    fixtures = [
-        "payments/fixtures/items.json",
-        "payments/fixtures/discounts.json",
-        "payments/fixtures/taxes.json",
-        "payments/fixtures/orders.json"
-    ]
-    for fixture in fixtures:
-        call_command("loaddata", fixture)
+    if not User.objects.filter(is_superuser=True).exists():
+        print("Загрузка фикстур...")
+        fixtures = [
+            "payments/fixtures/items.json",
+            "payments/fixtures/discounts.json",
+            "payments/fixtures/taxes.json",
+            "payments/fixtures/orders.json"
+        ]
+        for fixture in fixtures:
+            call_command("loaddata", fixture)
 
-    print("Создание суперпользователя...")
-    if not User.objects.filter(username="admin").exists():
+        print("Создание суперпользователя...")
         User.objects.create_superuser("admin", "admin@example.com", "admin123")
         print("Суперпользователь 'admin' создан успешно.")
     else:
-        print("Суперпользователь 'admin' уже существует.")
+        print("Суперпользователь уже существует")
 
 
 if __name__ == "__main__":
